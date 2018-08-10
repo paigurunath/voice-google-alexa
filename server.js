@@ -234,14 +234,14 @@ express_app.post("/guidetoretirement", function(req, res) {
   if(req.body.queryResult.parameters.retirement || req.body.queryResult.parameters.insights) {
     speech =
     '<speak> Welcome, here is the preview of simplify the complex with the Guide to Retirement'+
-    '<audio src="https://am.jpmorgan.com/blob-gim/1383559729729/83456/WeeklyStory.mp3">did not get your audio file</audio>' +
+    '<audio src="https://am.jpmorgan.com/blob-gim/1383559729729/83456/WeeklyStory.mp3"></audio>' +
     '<break time="2s"/>Do you want to continue Retirement Program Introduction ?' +
     '</speak>';
   }
 
   if(req.body.queryResult.parameters.userResponse) {
     speech =
-    '<speak><audio src="https://am.jpmorgan.com/blob-gim/1383421019357/83456/Slide_15_KR.mp3">did not get your audio file</audio>'+
+    '<speak><audio src="https://am.jpmorgan.com/blob-gim/1383421019357/83456/Slide_15_KR.mp3"></audio>'+
     '<break time="2s"/>would you like to hear more on retirement plans ? <break time="2s"/></speak>';
   }
 
