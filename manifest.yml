@@ -1,6 +1,6 @@
 ---
 applications:
-- name: guide_to_market_both
+- name: am_jp_morgan_voice
   instances: 1
   random-route: true
   memory:  256M

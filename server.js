@@ -222,7 +222,7 @@ express_app.use(bodyParser.json());
 // });
 
 
-express_app.post("/guideToRetire", function(req, res) {
+express_app.post("/guidetoretirement", function(req, res) {
   var speech = "";
 
   
