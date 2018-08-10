@@ -1,0 +1,7 @@
+---
+applications:
+- name: guide_to_market_both
+  instances: 1
+  random-route: true
+  memory:  256M
+  command: node server.js
